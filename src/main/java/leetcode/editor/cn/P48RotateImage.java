@@ -57,12 +57,15 @@ class Solution {
         int origin = length / 2 + length % 2;
         for (int index1 = 0;index1<length/2;index1++){
             for (int index2 = 0; index2< origin; index2++){
-
+                int oldNum = matrix[index1][index2];
                 for (int a = 1;a<5;a++){
-                    int nowNum = matrix[index1][index2];
-
-
-                    -index1+origin-index2
+                    int index11 = index2;
+                    int index22 = length -1-index1;
+                    int newNum = matrix[index11][index22];
+                    matrix[index11][index22] = oldNum;
+                    oldNum = newNum;
+                    index1 = index11;
+                    index2 = index22;
                 }
             }
         }
