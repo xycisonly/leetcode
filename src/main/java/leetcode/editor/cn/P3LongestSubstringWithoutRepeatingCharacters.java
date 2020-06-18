@@ -29,11 +29,27 @@ import java.util.*;
   public class P3LongestSubstringWithoutRepeatingCharacters{
       public static void main(String[] args) {
            Solution solution = new P3LongestSubstringWithoutRepeatingCharacters().new Solution();
+          System.out.println(solution.lengthOfLongestSubstring("abcbafg"));
       }
+
         //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        return 0;
+        int max = 0;
+        //双指针R
+        int index1 = 0,index2 = 0;
+        Map<Character,Integer> charMap = new HashMap<>(s.length());
+        while (index2 < s.length()) {
+            char index2Char = s.charAt(index2);
+            Integer bufferIndex = charMap.get(index2Char);
+            if (bufferIndex!=null){
+                //不清楚重复的，因为index1只会是最大的，以前的数据不会造成影响
+                index1 = Math.max(index1,bufferIndex + 1);
+            }
+            charMap.put(index2Char,index2);
+            max =  Math.max(max, ++index2 - index1);
+        }
+        return Math.max(max,s.length()-index1);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
