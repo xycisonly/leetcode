@@ -17,26 +17,41 @@ package leetcode.editor.cn;
 
 import java.util.*;
 
-public class P1TwoSum{
-      public static void main(String[] args) {
-           Solution solution = new P1TwoSum().new Solution();
-      }
-        //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        Map<Integer,Integer> map = new HashMap<>();
-        for (int index = 0;index<nums.length;index++){
-            map.put(nums[index],index);
-        }
-        for (int index = 0;index<nums.length;index++){
-            Integer result = map.get(target - nums[index]);
-            if (result!=null&&result!=index){
-                return new int[]{index,result};
-            }
-        }
-        return null;
+public class P1TwoSum {
+    public static void main(String[] args) {
+        Solution solution = new P1TwoSum().new Solution();
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int[] twoSum(int[] nums, int target) {
+            Map<Integer, Integer> map = new HashMap<>();
+            for (int index = 0; index < nums.length; index++) {
+                map.put(nums[index], index);
+            }
+            for (int index = 0; index < nums.length; index++) {
+                Integer result = map.get(target - nums[index]);
+                if (result != null && result != index) {
+                    return new int[]{index, result};
+                }
+            }
+            return null;
+        }
+
+        public int[] twoSum1(int[] nums, int target) {
+            Map<Integer, Integer> map = new HashMap<>();
+            for (int index = 0; index < nums.length; index++) {
+                map.put(nums[index], index);
+            }
+            for (int index = 0; index < nums.length; index++) {
+                Integer result = map.get(target - nums[index]);
+                if (result != null && result != index) {
+                    return new int[]{index, result};
+                }
+            }
+            return null;
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}

@@ -62,15 +62,14 @@ public class P2AddTwoNumbers {
 
     }
 
-
+    static class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) {
+            val = x;
+        }
+    }
 
 //leetcode submit region end(Prohibit modification and deletion)
 
-}
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
-        val = x;
-    }
 }

@@ -12,6 +12,8 @@
 
 package leetcode.editor.cn;
 
+import leetcode.editor.cn.node.ListNode;
+
 import java.util.*;
   public class P21MergeTwoSortedLists{
       public static void main(String[] args) {
@@ -49,15 +51,6 @@ class Solution {
         prev.next = l1 == null ? l2 : l1;
 
         return prehead.next;
-    }
-}
-static class ListNode{
-    public ListNode next;
-    public Integer val;
-    public ListNode() {}
-    public ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    public ListNode(Integer val){
-        this.val = val;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
