@@ -179,6 +179,22 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P137SingleNumberIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P137SingleNumberIi.java" />
+              <option name="questionId" value="137" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P141LinkedListCycle.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P141LinkedListCycle.java" />
+              <option name="questionId" value="141" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P155MinStack.java">
           <value>
             <LeetcodeEditor>
@@ -192,6 +208,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P15ThreeSum.java" />
               <option name="questionId" value="15" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P160IntersectionOfTwoLinkedLists.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P160IntersectionOfTwoLinkedLists.java" />
+              <option name="questionId" value="160" />
             </LeetcodeEditor>
           </value>
         </entry>
