@@ -63,23 +63,9 @@ public class P141LinkedListCycle {
      * }
      * }
      */
-    class Solution {
-        public boolean hasCycle(ListNode head) {
-            if (head==null){
-                return false;
-            }
-            while (head!=head.next){
-                head = head.next;
 
-                if (head==null||head.next==null){
-                    return false;
-                }
-                head.next =head.next.next;
-            }
-            return true;
-        }
-    }
-    class Solution2 {
+
+    class Solution {
         public boolean hasCycle(ListNode head) {
             HashSet<ListNode> dataSet = new HashSet<>();
             for (;head!=null;head = head.next){
