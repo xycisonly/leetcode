@@ -15,6 +15,8 @@
 
 package leetcode.editor.cn;
 
+import leetcode.editor.cn.node.ListNode;
+
 import java.util.*;
 
 public class P2AddTwoNumbers {
@@ -62,13 +64,6 @@ public class P2AddTwoNumbers {
 
     }
 
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
 //leetcode submit region end(Prohibit modification and deletion)
 

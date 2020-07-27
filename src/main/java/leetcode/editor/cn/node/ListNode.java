@@ -4,7 +4,7 @@ import leetcode.editor.cn.P21MergeTwoSortedLists;
 
 public class ListNode{
     public ListNode next;
-    public Integer val;
+    public int val;
     public ListNode() {}
     public ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     public ListNode(Integer val){
