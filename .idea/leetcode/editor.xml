@@ -3,114 +3,114 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
-        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/ContainerWithMostWater .java">
+        <entry key="$PROJECT_DIR$/editor/cn/ContainerWithMostWater .java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/ContainerWithMostWater .java" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/ContainerWithMostWater .java" />
               <option name="questionId" value="11" />
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/RegularExpressionMatching .java">
+        <entry key="$PROJECT_DIR$/editor/cn/RegularExpressionMatching .java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/RegularExpressionMatching .java" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/RegularExpressionMatching .java" />
               <option name="questionId" value="10" />
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/ThreeSum .java">
+        <entry key="$PROJECT_DIR$/editor/cn/ThreeSum .java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/ThreeSum .java" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/ThreeSum .java" />
               <option name="questionId" value="15" />
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/TrappingRainWater .java">
+        <entry key="$PROJECT_DIR$/editor/cn/TrappingRainWater .java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/TrappingRainWater .java" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/TrappingRainWater .java" />
               <option name="questionId" value="42" />
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/TwoSum .java">
+        <entry key="$PROJECT_DIR$/editor/cn/TwoSum .java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/TwoSum .java" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/TwoSum .java" />
               <option name="questionId" value="1" />
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/[1]两数之和.java">
+        <entry key="$PROJECT_DIR$/editor/cn/[1]两数之和.java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/[1]两数之和.java" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[1]两数之和.java" />
               <option name="questionId" value="1" />
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/不同路径II .java">
+        <entry key="$PROJECT_DIR$/editor/cn/不同路径II .java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/不同路径II .java" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/不同路径II .java" />
               <option name="questionId" value="63" />
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/两数之和 .java">
+        <entry key="$PROJECT_DIR$/editor/cn/两数之和 .java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/两数之和 .java" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/两数之和 .java" />
               <option name="questionId" value="1" />
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/反转字符串 .java">
+        <entry key="$PROJECT_DIR$/editor/cn/反转字符串 .java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/反转字符串 .java" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/反转字符串 .java" />
               <option name="questionId" value="344" />
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/字符串转换整数(atoi) .java">
+        <entry key="$PROJECT_DIR$/editor/cn/字符串转换整数(atoi) .java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/字符串转换整数(atoi) .java" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/字符串转换整数(atoi) .java" />
               <option name="questionId" value="8" />
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/寻找两个正序数组的中位数 .java">
+        <entry key="$PROJECT_DIR$/editor/cn/寻找两个正序数组的中位数 .java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/寻找两个正序数组的中位数 .java" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/寻找两个正序数组的中位数 .java" />
               <option name="questionId" value="4" />
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/整数反转 .java">
+        <entry key="$PROJECT_DIR$/editor/cn/整数反转 .java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/整数反转 .java" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/整数反转 .java" />
               <option name="questionId" value="7" />
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/无重复字符的最长子串 .java">
+        <entry key="$PROJECT_DIR$/editor/cn/无重复字符的最长子串 .java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/无重复字符的最长子串 .java" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/无重复字符的最长子串 .java" />
               <option name="questionId" value="3" />
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../leetcode/editor/cn/最大间距 .java">
+        <entry key="$PROJECT_DIR$/editor/cn/最大间距 .java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/cn/最大间距 .java" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/最大间距 .java" />
               <option name="questionId" value="164" />
             </LeetcodeEditor>
           </value>
@@ -456,6 +456,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P70ClimbingStairs.java" />
               <option name="questionId" value="70" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P8StringToIntegerAtoi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P8StringToIntegerAtoi.java" />
+              <option name="questionId" value="8" />
             </LeetcodeEditor>
           </value>
         </entry>
