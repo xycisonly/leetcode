@@ -1,0 +1,23 @@
+# Created by .ignore support plugin (hsz.mobi)
+/.idea/
+common/target/
+dao/target/
+domain/target/
+/logs/
+/provider/target/
+/service/target/
+/biz/target/
+/domain/myzebra-server.domain.iml
+/dao/myzebra-server.dao.iml
+/common/myzebra-server.common.iml
+/biz/myzebra-server.biz.iml
+/provider/myzebra-server.provider.iml
+/service/myzebra-server.service.iml
+.idea/*
+*.iml
+.DS_Store
+/gateway/target
+/provider/logs/*
+/gateway/logs/*
+/gateway-task/logs/*
+/gateway-task/target
