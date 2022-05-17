@@ -40,12 +40,44 @@ import java.util.*;
 public class P200NumberOfIslands {
     public static void main(String[] args) {
         Solution solution = new P200NumberOfIslands().new Solution();
+        solution.numIslands(new char[][]{{'1', '1', '1'}, {'0', '1', '0'}, {'1', '1', '1'}});
     }
 
+    // 1 1 0
+    // 0 1 0
+    // 1 1 1
+    // 0 1 0
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+        //0 1 1 1 1 0
+        //0 1 0 1 0 0
+        //1 1 1 1 1 0
+        //0 0 0 1 0 0
         public int numIslands(char[][] grid) {
-            return 0;
+            int result = 0;
+
+            for (int index1 = 0; index1 < grid.length; index1++) {
+                char[] grid1 = grid[index1];
+                for (int index2 = 0; index2 < grid1.length; index2++) {
+                    if (grid[index1][index2] == '1') {
+                        result++;
+                        change(grid, index1, index2);
+                    }
+                }
+            }
+            return result;
+        }
+
+        private void change(char[][] grid, int index1, int index2) {
+            if (grid[index1][index2] != '1') {
+                return;
+            } else {
+                grid[index1][index2] = '2';
+            }
+            if (index1 > 0) change(grid, index1 - 1, index2);
+            if (index1 < grid.length - 1) change(grid, index1 + 1, index2);
+            if (index2 > 0) change(grid, index1, index2 - 1);
+            if (index2 < grid[index1].length - 1) change(grid, index1, index2 + 1);
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
