@@ -25,6 +25,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P1114PrintInOrder.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/P1114PrintInOrder.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1114" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P1114PrintInOrder.java" />
+              <option name="titleSlug" value="print-in-order" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P138CopyListWithRandomPointer.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/P138CopyListWithRandomPointer.md" />
+              <option name="frontendQuestionId" value="leetcode.cn138" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P138CopyListWithRandomPointer.java" />
+              <option name="titleSlug" value="copy-list-with-random-pointer" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P146LruCache.java">
           <value>
             <LeetcodeEditor>
@@ -157,6 +179,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P516LongestPalindromicSubsequence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/P516LongestPalindromicSubsequence.md" />
+              <option name="frontendQuestionId" value="leetcode.cn516" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P516LongestPalindromicSubsequence.java" />
+              <option name="titleSlug" value="longest-palindromic-subsequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P5LongestPalindromicSubstring.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/P5LongestPalindromicSubstring.md" />
+              <option name="frontendQuestionId" value="leetcode.cn5" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P5LongestPalindromicSubstring.java" />
+              <option name="titleSlug" value="longest-palindromic-substring" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P604DesignCompressedStringIterator.java">
           <value>
             <LeetcodeEditor>
@@ -187,6 +231,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P6ZigzagConversion.java" />
               <option name="titleSlug" value="zigzag-conversion" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P7ReverseInteger.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/P7ReverseInteger.md" />
+              <option name="frontendQuestionId" value="leetcode.cn7" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P7ReverseInteger.java" />
+              <option name="titleSlug" value="reverse-integer" />
             </LeetcodeEditor>
           </value>
         </entry>
