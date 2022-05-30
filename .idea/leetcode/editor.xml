@@ -25,6 +25,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P1041RobotBoundedInCircle.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/P1041RobotBoundedInCircle.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1041" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P1041RobotBoundedInCircle.java" />
+              <option name="titleSlug" value="robot-bounded-in-circle" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P1114PrintInOrder.java">
           <value>
             <LeetcodeEditor>
@@ -168,6 +179,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P286WallsAndGates.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/P286WallsAndGates.md" />
+              <option name="frontendQuestionId" value="leetcode.cn286" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P286WallsAndGates.java" />
+              <option name="titleSlug" value="walls-and-gates" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P336PalindromePairs.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/P336PalindromePairs.md" />
+              <option name="frontendQuestionId" value="leetcode.cn336" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P336PalindromePairs.java" />
+              <option name="titleSlug" value="palindrome-pairs" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P414ThirdMaximumNumber.java">
           <value>
             <LeetcodeEditor>
@@ -253,6 +286,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P973KClosestPointsToOrigin.java" />
               <option name="titleSlug" value="k-closest-points-to-origin" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P994RottingOranges.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/P994RottingOranges.md" />
+              <option name="frontendQuestionId" value="leetcode.cn994" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P994RottingOranges.java" />
+              <option name="titleSlug" value="rotting-oranges" />
             </LeetcodeEditor>
           </value>
         </entry>
