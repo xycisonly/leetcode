@@ -20,16 +20,31 @@
 package leetcode.editor.cn;
 
 import java.util.*;
-  public class P11ContainerWithMostWater{
-      public static void main(String[] args) {
-           Solution solution = new P11ContainerWithMostWater().new Solution();
-      }
-        //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int maxArea(int[] height) {
-return 0;
+
+public class P11ContainerWithMostWater {
+    public static void main(String[] args) {
+        Solution solution = new P11ContainerWithMostWater().new Solution();
+        System.out.println(solution.maxArea(new int[]{1,8,6,2,5,4,8,3,7}));
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int maxArea(int[] height) {
+            int result = 0;
+            int left = 0;
+            int right = height.length - 1;
+            while (left < right) {
+                if (height[left] <= height[right]) {
+                    result = Math.max(height[left] * (right - left), result);
+                    left++;
+                } else {
+                    result = Math.max(height[right] * (right - left), result);
+                    right--;
+                }
+            }
+            return result;
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}
