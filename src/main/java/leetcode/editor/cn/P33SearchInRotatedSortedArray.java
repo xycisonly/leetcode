@@ -53,11 +53,44 @@ import java.util.*;
 public class P33SearchInRotatedSortedArray {
     public static void main(String[] args) {
         Solution solution = new P33SearchInRotatedSortedArray().new Solution();
+
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int search(int[] nums, int target) {
+//            if (nums.length==1){
+//                return nums[0]==
+//            }
+            int left = 0;
+            int right = nums.length - 1;
+            while (left <= right) {
+                int index = (left + right) / 2;
+                int currentValue = nums[index];
+                if (currentValue == target) {
+                    return index;
+                }
+                if (nums[left] <= currentValue) {
+                    //左边有序
+                    if (currentValue > target && target >= nums[left]) {
+                        right = index - 1;
+                    } else {
+                        left = index + 1;
+                    }
+                } else {
+                    //右边有序
+                    if (currentValue < target && target <= nums[right]) {
+                        left = index + 1;
+                    } else {
+                        right = index - 1;
+                    }
+
+                }
+            }
+            return -1;
+        }
+
+        public int search1(int[] nums, int target) {
             if (nums[0] <= target) {
                 int prev = Integer.MIN_VALUE;
                 for (int index = 0; index < nums.length; index++) {
