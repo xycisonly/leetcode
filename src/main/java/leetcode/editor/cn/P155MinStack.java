@@ -49,9 +49,10 @@ public class P155MinStack {
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
+
     class MinStack {
-        private int[] data = new int[16];
-        private int maxIndex = -1;
+        private LinkedList<Integer> master = new LinkedList<>();
+        private LinkedList<Integer> helpList = new LinkedList<>();
 
         /**
          * initialize your data structure here.
@@ -61,29 +62,28 @@ public class P155MinStack {
         }
 
         public void push(int x) {
-            if (data.length - 1 == maxIndex) {
-                data = Arrays.copyOf(data, data.length << 1);
+            master.push(x);
+            if (helpList.isEmpty()) {
+                helpList.push(x);
+            } else {
+                Integer peek = helpList.peek();
+                helpList.push(peek > x ? x : peek);
             }
-            data[++maxIndex] = x;
         }
 
         public void pop() {
-            maxIndex--;
+            master.remove();
+            helpList.remove();
         }
 
         public int top() {
-            return data[maxIndex];
+            return master.peek();
         }
 
         public int getMin() {
-            int min = Integer.MAX_VALUE;
-            for (int index = 0; index <= maxIndex; index++) {
-                min = Math.min(data[index], min);
-            }
-            return min;
+            return helpList.peek();
         }
     }
-
 /**
  * Your MinStack object will be instantiated and called as such:
  * MinStack obj = new MinStack();
