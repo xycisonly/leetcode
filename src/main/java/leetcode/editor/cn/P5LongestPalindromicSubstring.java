@@ -78,52 +78,6 @@ public class P5LongestPalindromicSubstring {
             }
             return right-left-2;
         }
-//        public String longestPalindrome(String s) {
-//            if (s.length() == 0) {
-//                return "";
-//            }
-//            int mBefore = 0;
-//            int mAfter = 0;
-//            int len = 1;
-//            HashMap<Character, Integer> map = new HashMap<>();
-//            for (int index = 0; index < s.length(); index++) {
-//                int before = index - 1;
-//                int after = index + 1;
-//                if (index + len / 2 >= s.length()) {
-//                    break;
-//                }
-//                while (before >= 0 && after < s.length()) {
-//                    if (s.charAt(before) != s.charAt(after)) {
-//                        break;
-//                    } else {
-//                        before--;
-//                        after++;
-//                    }
-//                }
-//                if (len < after - before - 1) {
-//                    len = after - before - 1;
-//                    mAfter = after - 1;
-//                    mBefore = before + 1;
-//                }
-//
-//                before = index - 1;
-//                after = index;
-//                while (before >= 0 && after < s.length()) {
-//                    if (s.charAt(before) != s.charAt(after)) {
-//                        break;
-//                    } else {
-//                        before--;
-//                        after++;
-//                    }
-//                }
-//                if (len < after - before - 1) {
-//                    len = after - before - 1;
-//                    mAfter = after - 1;
-//                    mBefore = before + 1;
-//                }
-//            }
-//            return s.substring(mBefore, mAfter + 1);
-//        }
     }
 //leetcode submit region end(Prohibit modification and deletion)
 

@@ -55,16 +55,123 @@
 package leetcode.editor.cn;
 
 import java.util.*;
-  public class P6ZigzagConversion{
-      public static void main(String[] args) {
-           Solution solution = new P6ZigzagConversion().new Solution();
-      }
-        //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public String convert(String s, int numRows) {
 
+public class P6ZigzagConversion {
+    public static void main(String[] args) {
+        Solution solution = new P6ZigzagConversion().new Solution();
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+
+        public String convert(String s, int numRows) {
+            if (numRows == 1 || numRows >= s.length()) {
+                return s;
+            }
+            StringBuilder result = new StringBuilder();
+            int n = numRows * 2 - 2;
+            for (int y = 0; y < numRows; y++) {
+                int x = 0;
+                boolean b = y != 0 && y != numRows - 1;
+                while (true) {
+                    int index1 = n * x + y;
+                    if (s.length() <= index1) {
+                        break;
+                    }
+                    result.append(s.charAt(index1));
+                    if (b) {
+                        int index2 = n * (x+1) - y;
+                        if (s.length() <= index2) {
+                            break;
+                        }
+                        result.append(s.charAt(index2));
+                    }
+                    x++;
+                }
+            }
+            return result.toString();
+        }
+
+        /**
+         * 以s作为基准
+         * 并没有比方法一更快，因为进行了更多的逻辑计算
+         *
+         * @param s
+         * @param numRows
+         * @return
+         */
+        public String convert2(String s, int numRows) {
+            int length = s.length();
+            if (numRows == 1 || numRows >= length) {
+                return s;
+            }
+            StringBuilder[] mat = new StringBuilder[numRows];
+            for (int i = 0; i < numRows; ++i) {
+                mat[i] = new StringBuilder();
+            }
+            for (int i = 0, x = 0, t = numRows * 2 - 2; i < length; ++i) {
+                mat[x].append(s.charAt(i));
+                if (i % t < numRows - 1) {
+                    ++x;
+                } else {
+                    --x;
+                }
+            }
+            StringBuilder ans = new StringBuilder();
+            for (StringBuilder row : mat) {
+                ans.append(row);
+            }
+            return ans.toString();
+        }
+
+        /**
+         * 以cache作为基准
+         *
+         * @param s
+         * @param numRows
+         * @return
+         */
+        public String convert1(String s, int numRows) {
+            if (numRows == 1 || numRows >= s.length()) {
+                return s;
+            }
+            int cacheXLen = 2 * s.length() / (2 * numRows - 2) + (2 * s.length() % (2 * numRows - 2) == 0 ? 0 : 2);
+            char[][] cache = new char[cacheXLen][numRows];
+            int sIndex = 0;
+            for (int xIndex = 0; xIndex < cacheXLen; xIndex++) {
+                char[] cacheX = cache[xIndex];
+                boolean a = xIndex % 2 == 0;
+                for (int yIndex = 0; yIndex < numRows; yIndex++) {
+                    if (a) {
+                        cacheX[yIndex] = s.charAt(sIndex);
+                    } else {
+                        if (yIndex == 0 || yIndex == numRows - 1) {
+                            continue;
+                        }
+                        cacheX[numRows - 1 - yIndex] = s.charAt(sIndex);
+                    }
+                    sIndex++;
+                    if (sIndex == s.length()) {
+                        break;
+                    }
+                }
+                if (sIndex == s.length()) {
+                    break;
+                }
+            }
+//            System.out.println(Arrays.deepToString(cache));
+            StringBuilder builder = new StringBuilder();
+            for (int yIndex = 0; yIndex < numRows; yIndex++) {
+                for (int xIndex = 0; xIndex < cacheXLen; xIndex++) {
+                    if (cache[xIndex][yIndex] == '\u0000') {
+                        continue;
+                    }
+                    builder.append(cache[xIndex][yIndex]);
+                }
+            }
+            return builder.toString();
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}
