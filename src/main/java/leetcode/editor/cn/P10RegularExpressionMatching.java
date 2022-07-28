@@ -67,7 +67,7 @@ public class P10RegularExpressionMatching {
             cache[0][0] = true;
             for (int sIndexAdd = 0; sIndexAdd <= s.length(); sIndexAdd++) {
                 for (int pIndexAdd = 1; pIndexAdd <= p.length(); pIndexAdd++) {
-                    if (p.charAt(pIndexAdd - 1) == '*') {
+                    if (p.charAt(pIndexAdd - 1) == '*' && pIndexAdd >= 2) {
                         if (cache[sIndexAdd][pIndexAdd - 2]) {
                             cache[sIndexAdd][pIndexAdd] = true;
                             continue;
@@ -93,6 +93,7 @@ public class P10RegularExpressionMatching {
 
         /**
          * 使用双指针
+         *
          * @param s
          * @param p
          * @param sIndex
@@ -138,7 +139,8 @@ public class P10RegularExpressionMatching {
             return sIndex == s.length() && pIndex == p.length();
         }
 
-        public boolean equal(char pChar, char sChar) {
+        public boolean
+        equal(char pChar, char sChar) {
             if (pChar == '.') {
                 return true;
             }
