@@ -34,8 +34,6 @@
 
 package leetcode.editor.cn;
 
-import com.xyc.leetcode.Ma;
-
 import java.util.*;
 
 public class P124BinaryTreeMaximumPathSum {
